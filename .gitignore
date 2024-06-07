@@ -1,0 +1,5 @@
+/.venv
+/data
+/mnist_model.pth
+/runs
+/temp.py
