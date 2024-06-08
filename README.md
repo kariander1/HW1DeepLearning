@@ -91,7 +91,7 @@ This trial had the best results concerning accuracy.
 This model uses L2 regularization (weight decay) to penalize large weights and reduce overfitting. The regularization term reduces the risk of capturing noise and fluctuations in the training data as if they were meaningful patterns by penalizing these large values, thus enforcing the model to optimize better for the general case.
 In terms of overfitting - this trial outperformed, reaching the minimal difference between test and train accuracies.
 
-![LeNet5_weight_decay.png](assets/LeNet5_weight_decay.png "LeNet5_weight_decay.png")
+![LeNet5_weight_decay.png](assets/Lenet5_weight_decay.png "LeNet5_weight_decay.png")
 
 
 | Model                       | Train Accuracy | Test Accuracy |
