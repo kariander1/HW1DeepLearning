@@ -101,12 +101,6 @@ In terms of overfitting - this trial outperformed, reaching the minimal differen
 | LeNet5 with Batch Normalization | 95.57%     | 91.35%        |
 | LeNet5 with Weight Decay    | 90.80%         | 88.45%        |
 
-## Acknowledgements
-
-This project was inspired by the original LeNet-5 model proposed by Yann LeCun et al. for handwritten digit recognition. The Fashion MNIST dataset used in this project is a collection of Zalando's article images, serving as a drop-in replacement for the original MNIST dataset.
-
-The implementation also incorporates Batch Normalization as proposed by Sergey Ioffe and Christian Szegedy in their paper ["Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift"](https://arxiv.org/abs/1502.03167).
-
 ### References
 
 - [LeNet-5: Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/lenet/)
