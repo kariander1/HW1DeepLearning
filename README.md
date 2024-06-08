@@ -72,26 +72,26 @@ Red vertical lines show where the best model checkpoint was taken (Based on the 
 #### LeNet5 Vanilla
 This model represents the basic implementation of LeNet5 without any additional modifications. The graph below shows the comparison between training and test accuracy.
 
-![Lenet5_vanilla.png](assets\Lenet5_vanilla.png "Lenet5_vanilla.png")
+![Lenet5_vanilla.png](assets/Lenet5_vanilla.png "Lenet5_vanilla.png")
 
 #### LeNet5 with Dropout
 In this variant, dropout layer was added to prevent overfitting. The dropout randomly zeroes out neorons before the linear layers, thus preventing the network from becoming too dependent on specific neurons and forces it to learn redundant representations of features. It is apparent the train accuracy less overfitted to the dataset from the vanilla version, as differences between train and test acucuracies are lower. Moreover, this trial had a better test accuracy that the vanilla.
 
 
-![Lenet5_dropout.png](assets\Lenet5_dropout.png "Lenet5_dropout.png")
+![Lenet5_dropout.png](assets/Lenet5_dropout.png "Lenet5_dropout.png")
 
 #### LeNet5 with Batch Normalization
 This version of LeNet5 incorporates batch normalization layers. This trial was the fastest among all, achieving the best model in the earliest epoch and maintaining the highest learning rate the longest. This outcome aligns with expectations since batch normalization reduces internal covariate shift by normalizing inputs and aids optimization by keeping gradients in a consistent range, as explained by Sergey Ioffe et al. and as outlined in the exercise.
 
 This trial had the best results concerning accuracy.
 
-![Lenet5_bn.png](assets\Lenet5_bn.png "Lenet5_bn.png")
+![Lenet5_bn.png](assets/Lenet5_bn.png "Lenet5_bn.png")
 
 #### LeNet5 with Weight Decay
 This model uses L2 regularization (weight decay) to penalize large weights and reduce overfitting. The regularization term reduces the risk of capturing noise and fluctuations in the training data as if they were meaningful patterns by penalizing these large values, thus enforcing the model to optimize better for the general case.
 In terms of overfitting - this trial outperformed, reaching the minimal difference between test and train accuracies.
 
-![LeNet5_weight_decay.png](assets\LeNet5_weight_decay.png "LeNet5_weight_decay.png")
+![LeNet5_weight_decay.png](assets/LeNet5_weight_decay.png "LeNet5_weight_decay.png")
 
 
 | Model                       | Train Accuracy | Test Accuracy |
