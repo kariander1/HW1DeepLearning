@@ -27,6 +27,7 @@ Checkout to the project directory and install the dependencies:
 pip install -r requirements.txt
 ```
 
+**NOTE** - This implementation was done with python 3.6.8
 
 ## Usage
 
